@@ -47,11 +47,24 @@
     flex: 1;
     min-height: 0;
     max-height: 100%;
+    overflow-x: hidden;
     overflow-y: auto;
     padding: 10px;
     border-radius: 8px;
     font-size: 16px;
     line-height: 1.3;
+}
+
+.list--notes::-webkit-scrollbar-track {
+    border-radius: 10px;
+}
+
+.list--notes::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+}
+
+.list--notes::-webkit-scrollbar-thumb:hover {
+    cursor: pointer;
 }
 
 .nota {
@@ -137,6 +150,22 @@
     margin: 5px;
 }
 
+#nota::-webkit-scrollbar {
+    width: 10px;
+}
+
+#nota::-webkit-scrollbar-track {
+    border-radius: 10px;
+}
+
+#nota::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+}
+
+#nota::-webkit-scrollbar-thumb:hover {
+    cursor: pointer;
+}
+
 @media (max-width: 700px) {
     .colun--notes {
         display: flex;
@@ -196,15 +225,19 @@
         height: 90px;
         border-radius: 4px;
     }
+
     .nota--titulo {
         margin: 5px 0 0 5px;
         font-weight: bold;
         height: 50px;
         font-size: 13px;
-        white-space: normal; /* permite quebra de linha */
-        word-wrap: break-word; /* quebra palavras longas */
+        white-space: normal;
+        /* permite quebra de linha */
+        word-wrap: break-word;
+        /* quebra palavras longas */
         overflow: hidden;
     }
+
     .nota--conteudo {
         display: none;
         margin: 10px 0 0 10px;

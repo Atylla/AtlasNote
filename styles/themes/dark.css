@@ -177,7 +177,24 @@ body {
     color: #ddd;
     border: 1px hidden #ddd;
 }
+.list--notes::-webkit-scrollbar {
+    width: 10px;
+}
 
+.list--notes::-webkit-scrollbar-track {
+    background: #292929;
+    border-radius: 10px;
+}
+
+.list--notes::-webkit-scrollbar-thumb {
+    background: #383838;
+    border-radius: 10px;
+}
+
+.list--notes::-webkit-scrollbar-thumb:hover {
+    background: #444;
+    cursor: pointer;
+}
 .nota {
     border-bottom: 1px solid #999;
     border-radius: 3px;
@@ -218,6 +235,23 @@ body {
     border: 1px hidden #ccc;
 
 }
+
+#nota::-webkit-scrollbar-track {
+    background: #292929;
+    border-radius: 10px;
+}
+
+#nota::-webkit-scrollbar-thumb {
+    background: #383838;
+    border-radius: 10px;
+}
+
+#nota::-webkit-scrollbar-thumb:hover {
+    background: #444;
+    cursor: pointer;
+}
+
+
 [data-placeholder] {
   position: relative;
 }
