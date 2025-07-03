@@ -199,7 +199,10 @@
     .nota--titulo {
         margin: 5px 0 0 5px;
         font-weight: bold;
+        height: 50px;
         font-size: 13px;
+        white-space: normal; /* permite quebra de linha */
+    word-wrap: break-word; /* quebra palavras longas */
         overflow: hidden;
     }
     .nota--conteudo {
