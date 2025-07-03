@@ -69,6 +69,12 @@ function switchPages(pagina) {
 
 function paginaNotes(pagina) {
     if (pagina == 'notes') {
+        const todas = JSON.parse(localStorage.getItem('notas') || '{}');
+        if (Object.keys(todas).length < 1) {
+            novaNota();
+        }
+
+
         carregarNotasDoStorage();
         inicializarNOTAS();
 
@@ -90,8 +96,8 @@ function paginaNotes(pagina) {
     }
 
     console.log('ANTES de salvar página:', pagina);
-setPaginaAtual(pagina);
-console.log('DEPOIS de salvar página:', getPaginaAtual());
+    setPaginaAtual(pagina);
+    console.log('DEPOIS de salvar página:', getPaginaAtual());
 }
 
 function paginaHome(pagina) {

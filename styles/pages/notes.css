@@ -105,6 +105,7 @@
     margin-bottom: 10px;
 
 }
+
 .top--bar button {
     align-self: center;
     margin-left: 4px;
@@ -164,6 +165,10 @@
         justify-content: space-between;
     }
 
+    #qtd-notas {
+        margin-left: 0;
+    }
+
     .bar--notes div {
         font-size: 15px;
     }
@@ -189,13 +194,12 @@
 
     .nota {
         height: 70px;
-        border-bottom: 1px solid;
-        cursor: pointer;
+        border-radius: 4px;
+        
     }
 
 
     .nota--titulo {
-
         margin: 10px 0 0 10px;
         font-weight: bold;
         font-size: 15px;
