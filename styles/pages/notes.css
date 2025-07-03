@@ -202,13 +202,14 @@
         height: 50px;
         font-size: 13px;
         white-space: normal; /* permite quebra de linha */
-    word-wrap: break-word; /* quebra palavras longas */
+        word-wrap: break-word; /* quebra palavras longas */
         overflow: hidden;
     }
     .nota--conteudo {
         display: none;
         margin: 10px 0 0 10px;
         font-size: 14px;
+        height: 40px;
         overflow: hidden;
     }
 
