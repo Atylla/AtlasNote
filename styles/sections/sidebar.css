@@ -83,6 +83,8 @@
     .box--usuario {
         border-radius: 8px;
         width: 80px;
+        padding: 3px;
+        font-size: 15px;
     }
 
     .colun--info #searchBar {
