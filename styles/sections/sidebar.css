@@ -97,6 +97,7 @@
         height: 40px;
         width: 120px;
         border-radius: 8px;
+        cursor: pointer;
     }
 
     #b-tarefa {
