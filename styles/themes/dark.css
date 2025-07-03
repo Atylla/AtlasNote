@@ -36,6 +36,9 @@ body {
     font-weight: bold;
     color: #000;
 }
+#b-nota:hover {
+    background-color: #dd5555;
+}
 
 .tab--bar button {
     background-color: #292929;
@@ -208,7 +211,6 @@ body {
     background-color: #3a3a3a;
     border: 2px solid #333;
 }
-.format--bar {}
 
 #nota {
     background-color: #181818;
