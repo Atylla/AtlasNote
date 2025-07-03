@@ -1,0 +1,133 @@
+/*Coluna lateral sidebar.css*/
+.colun--info {
+    margin: 15px 0 0 15px;
+    padding: 10px;
+    border-radius: 8px;
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+}
+
+.box--usuario {
+    border-radius: 8px;
+    padding: 4px;
+    padding-left: 40px;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.colun--info #searchBar {
+    margin: 15px 0 15px 0;
+    border-radius: 8px;
+    height: 40px;
+    width: 80%;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 8px;
+    padding-left: 30px;
+    outline: none;
+}
+
+
+#b-nota {
+    margin: 0 15px 15px 0;
+    height: 40px;
+    width: 120px;
+    border-radius: 8px;
+}
+
+#b-tarefa {
+    margin: 0 15px 15px 0;
+    height: 40px;
+    width: 80px;
+    border-radius: 8px;
+}
+
+#b-evento {
+    height: 40px;
+    width: 80px;
+    border-radius: 8px;
+}
+
+.tab--bar {
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+}
+
+.tab--bar button {
+    height: 40px;
+    width: 200px;
+    margin: 0 15px 1px 5px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#novidades {
+    height: 35px;
+    margin-top: auto;
+    border-radius: 8px;
+}
+
+@media(max-width: 700px) {
+    .colun--info {
+        margin: 5px;
+        padding: 10px;
+        border-radius: 8px;
+        height: 80px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .box--usuario {
+        border-radius: 8px;
+        width: 80px;
+    }
+
+    .colun--info #searchBar {
+        display: none;
+    }
+
+    #b-nota {
+        display: none;
+        margin: 0 15px 15px 0;
+        height: 40px;
+        width: 120px;
+        border-radius: 8px;
+    }
+
+    #b-tarefa {
+        margin: 0 15px 15px 0;
+        height: 40px;
+        width: 80px;
+        border-radius: 8px;
+    }
+
+    #b-evento {
+        height: 40px;
+        width: 80px;
+        border-radius: 8px;
+    }
+
+    .tab--bar {
+        display: flex;
+        flex-direction: row;
+        margin-top: 25px;
+        margin-left: auto;
+    }
+
+    .tab--bar button {
+        align-self: flex-end;
+        height: 30px;
+        width: 80px;
+        margin: 0 5px 5px 5px;
+        border-radius: 8px;
+    }
+
+    #novidades {
+        height: 35px;
+        margin-top: auto;
+        border-radius: 8px;
+    }
+}

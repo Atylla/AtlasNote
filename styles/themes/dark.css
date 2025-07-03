@@ -1,0 +1,235 @@
+/*--------------------------- html body*/
+html,
+body {
+    background-color: #222;
+}
+
+/*Coluna lateral dark.css*/
+.colun--info {
+    border: 3px solid #333;
+    background-color: #292929;
+}
+
+.box--usuario {
+    border: 2px solid #333;
+    background-color: #292929;
+    color: #fff;
+    transition: all 0.3s ease;
+}
+
+.colun--info #searchBar {
+    border: 3px solid #333;
+    background-color: #292929;
+    color: #ccc;
+}
+
+.colun--info #searchBar:focus {
+    border: 3px solid #333;
+    background-color: #111;
+    color: #ccc;
+}
+
+#b-nota {
+    background-color: #d45050;
+    border: hidden;
+    font-size: 15px;
+    font-weight: bold;
+    color: #000;
+}
+
+.tab--bar button {
+    background-color: #292929;
+    border: #333;
+    color: #fff;
+}
+
+.tab--bar button:hover {
+    background-color: #383838;
+}
+
+.tab--bar button.botao--page-selecionado {
+    background-color: #383838;
+    color: #fff;
+}
+
+/*---------------------- Coluna NOTES*/
+.colun--notes {
+    border: 1px solid #000;
+}
+
+.list--notes {
+    border: 1px solid #000;
+}
+
+.nota {
+    border-bottom: #000;
+}
+
+/*---------------------- AREA NOTES*/
+.area--notes {
+    border: 1px solid #000;
+}
+
+.top--bar {
+    border: 1px solid #000;
+}
+
+.format--bar {
+    border: 1px solid #000;
+}
+
+#nota {
+    border: 1px solid #ccc;
+    background-color: #fff;
+    color: #333;
+}
+
+/*----------------------- Home*/
+.home--linha1 {
+    border: 2px solid #333;
+}
+
+.home--head {
+    color: #fff;
+}
+
+.home--head button {
+    background-color: #292929;
+    border: 2px solid #333;
+    color: #fff;
+}
+
+.home--head button:hover {
+    background-color: #383838;
+    border: 2px solid #333;
+}
+
+.home--notes::-webkit-scrollbar-track {
+    background: #292929;
+}
+
+.home--notes::-webkit-scrollbar-thumb {
+    background: #383838;
+}
+
+.home--notes::-webkit-scrollbar-thumb:hover {
+    background: #444;
+}
+
+.home-nota {
+    border: 2px solid #333;
+    border-radius: 4px;
+    padding: 15px;
+    background-color: #161616;
+    color: #ddd;
+
+}
+
+.home-nota:hover {
+    background-color: #1d1d1d;
+}
+
+.home-notaT {
+    font-weight: 550;
+}
+
+
+/*-------------------------Linha 2*/
+.home--linha2 {
+    border: 2px solid #333;
+}
+
+/*-------------------------Pagina Notes Coluna 1*/
+.colun--notes {
+    border: 2px hidden #333;
+}
+
+.colun--notes h1 {
+    color: #fff;
+}
+
+#qtd-notas {
+    color: #ccc;
+}
+
+.bar--notes {}
+
+.bar--notes div {}
+
+.bar--notes p {}
+
+.bar--notes div button {
+    background-color: #333;
+    border: 2px solid #333;
+    color: #fff;
+}
+
+.bar--notes div button:hover {
+    background-color: #3a3a3a;
+    border: 2px solid #333;
+}
+
+.list--notes {
+    background-color: #222;
+    color: #ddd;
+    border: 1px hidden #ddd;
+}
+
+.nota {
+    border-bottom: 1px solid #999;
+    border-radius: 3px;
+}
+
+.nota:hover {
+    background-color: #181818;
+}
+
+.nota--ativa {
+    background-color: #181818;
+    border: 2px solid #d45050;
+    border-radius: 2px;
+}
+
+/*------------------------------- Area Notes*/
+.area--notes {
+    border: 3px solid #333;
+    background-color: #181818;
+}
+.top--bar {
+    border: 3px hidden #333;
+}
+
+.top--bar button {
+    background-color: #333;
+    border: 2px solid #333;
+    color: #fff;
+}
+.top--bar button:hover {
+    background-color: #3a3a3a;
+    border: 2px solid #333;
+}
+.format--bar {}
+
+#nota {
+    background-color: #181818;
+    color: #fff;
+    border: 1px hidden #ccc;
+
+}
+[data-placeholder] {
+  position: relative;
+}
+
+[data-placeholder]:empty::before,
+[data-placeholder]:not(:focus):has(br:only-child)::before {
+  content: attr(data-placeholder);
+  color: #777;
+  font-style: italic;
+  pointer-events: none;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+#nota h1 {}
+
+#nota p {}

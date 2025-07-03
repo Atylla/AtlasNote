@@ -1,0 +1,158 @@
+/*-------------------------Linha 1*/
+.home--linha1 {
+    width: 95%;
+    overflow: hidden;
+    margin: 15px 15px 0 15px;
+    border-radius: 8px;
+}
+
+.home--head {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    height: 40px;
+    border-radius: 8px;
+    margin: auto;
+    margin-top: 30px;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 25px;
+}
+.home--head button {
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 8px;
+    width: 50px;
+}
+
+.home--notes {
+    padding-right: 8px;
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+    overflow-x: auto;
+    /* scroll horizontal */
+    overflow-y: hidden;
+    width: 90%;
+    margin: auto;
+    margin-top: 80px;
+    white-space: nowrap;
+}
+.home--notes::-webkit-scrollbar {
+  height: 10px; 
+}
+.home--notes::-webkit-scrollbar-track {
+    border-radius: 10px;
+}
+.home--notes::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+}
+.home--notes::-webkit-scrollbar-thumb:hover {
+  cursor: pointer;
+}
+.home-nota {
+    width: 150px;
+    height: 90%;
+    margin-left: 8px;
+    margin-top: auto;
+    margin-bottom: auto;
+    flex-shrink: 0;
+    border: 2px solid #333;
+    border-radius: 4px;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.home-notaT {
+    font-weight: 550;
+}
+
+.home-notaT {
+    margin-top: 2px;
+}
+
+.home-notaC {
+    margin-top: 30px;
+    height: 40%;
+    overflow: hidden;
+    word-break: break-word;
+    white-space: normal;
+    display: block;
+}
+
+.home-notaH {
+    margin-top: 90px;
+    font-size: 12px;
+    overflow: hidden;
+}
+
+/*-------------------------Linha 2*/
+.home--linha2 {
+    margin: 15px;
+    border-radius: 8px;
+}
+
+@media (max-width: 700px) {
+    .home--linha1 {
+        width: 97%;
+        overflow: hidden;
+        margin: 5px 5px 0 5px;
+        border-radius: 8px;
+    }
+
+    .home--head {
+        display: flex;
+        flex-direction: row;
+        width: 95%;
+        height: 40px;
+        border-radius: 8px;
+        margin: auto;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .home--notes {
+        padding-right: 8px;
+        display: flex;
+        flex-direction: column;
+        height: 90%;
+        overflow-x: hidden;
+        /* scroll horizontal */
+        overflow-y: auto;
+        width: 90%;
+        margin: auto;
+        margin-top: 20px;
+        white-space: nowrap;
+        align-items: center;
+    }
+
+    .home-nota {
+        width: 300px;
+        height: 30%;
+        margin-left: 8px;
+        margin-top: 4px;
+        margin-bottom: auto;
+        flex-shrink: 0;
+        cursor: pointer;
+    }
+
+
+    .home-notaT {
+        margin-top: 2px;
+    }
+
+    .home-notaC {
+        margin-top: 10px;
+        height: 40%;
+        overflow: hidden;
+        word-break: break-word;
+        white-space: normal;
+        display: block;
+    }
+
+    .home-notaH {
+        margin-top: 10px;
+        overflow: hidden;
+    }
+}

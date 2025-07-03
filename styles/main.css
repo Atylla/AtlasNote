@@ -1,0 +1,25 @@
+/*   main.css
+@import './reset.css';
+@import './base/variables.css';
+
+
+@import './components/buttons.css';
+@import './components/editor.css';
+@import './components/noteCard.css';
+
+
+@import './sections/header.css';
+
+@import './themes/light.css'; opcional: tema padrão 
+ 
+*/
+@import './base/layout.css';
+@import './base/typography.css';
+
+@import './sections/sidebar.css';
+
+@import './themes/dark.css'; 
+
+@import './pages/notes.css';
+@import './pages/home.css';
+

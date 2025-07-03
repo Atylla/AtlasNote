@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AtlaNotes</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+
+<body>
+    <section class="page">
+        <section class="colun--info">
+            <div class="box--usuario">
+                <p>AtlaNotes</p>
+            </div>
+            <input type="text" id="searchBar" placeholder="🔍︎ Buscar notas...Ainda n existe" />
+            <button id="b-nota">Notas+</button>
+            <!--
+            <div>
+                <button id="b-tarefa">Tarefa+</button>
+                <button id="b-evento">Eventos+</button>
+            </div>
+            -->
+            <nav class="tab--bar">
+                <button data-page="home">Inicio</button>
+                <button data-page="notes">Notas</button>
+                <!--
+                <button>Tarefas</button>
+                <button>Calendário</button>
+                -->
+                <button>Sincronizar</button>
+            </nav>
+            <!--
+            <button id="novidades">novidades</button>
+            -->
+        </section>
+
+        <div id="area-pages" class="pages--home">
+        </div>
+    </section>
+
+
+
+    <!--
+    <div contenteditable="true">
+        <p>primeira linha exemplo</p>
+        <p>segunda linha exemplo</p>
+    </div>
+-->
+    <script type="module" src="./scripts/main.js"></script>
+</body>
+
+</html>
