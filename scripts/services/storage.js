@@ -1,6 +1,6 @@
 import { carregarPagina } from "../app/router.js";
 import { edit } from "../components/editor.js";
-import { atualizarListaNota, ordenarNotasPorData, qtdLista } from "./notas.js";
+import { atualizarListaNota, novaNota, ordenarNotasPorData, qtdLista } from "./notas.js";
 
 let notaAtualId = null;
 let debounceTimer = null;
@@ -32,6 +32,9 @@ export const excluirNotaAtual = () => {
     }
 
     qtdLista()
+    if(Object.keys(todas).length < 1) {
+        novaNota();
+    }
 };
 
 
